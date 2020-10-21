@@ -1,0 +1,268 @@
+@font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/Oswald-Light.ttf');
+}
+@font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Oswald-Regular.ttf');
+}
+@font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/Oswald-Medium.ttf');
+}
+@font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/Oswald-Bold.ttf');
+}
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    src: url('../fonts/Poppins-ExtraLight.ttf');
+}
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/Poppins-Light.ttf');
+}
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Poppins-Regular.ttf');
+}
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/Poppins-Medium.ttf');
+}
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/Poppins-SemiBold.ttf');
+}
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/Poppins-Bold.ttf');
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/Roboto-Light.ttf');
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/Roboto-Medium.ttf');
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/Roboto-Bold.ttf');
+}
+body {
+    line-height: 24px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    color: #777777;
+}
+.p_120 {
+    padding-top: 120px;
+}
+.navbar-light .navbar-brand {
+    font-size: 30px;
+    font-family: "Oswald", sans-serif;
+    color: #222222;
+    line-height: 40px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-left: -5px;
+    transition: .3s ease-in-out;
+}
+.navbar-light .navbar-brand:hover {
+    color: #fab700;
+    background-color: #222;
+   
+}
+}
+.navbar-light .navbar-brand img {
+    padding-right: 10px;
+}
+.navbar-light .navbar-nav .nav-item > .nav-link {
+    font: 500 12px/74px "Poppins", sans-serif;
+    text-transform: uppercase;
+    color: #222222;   
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+.navbar-light .navbar-nav .nav-item >.nav-link.active {
+    color: #fab700;
+}
+.navbar-light .navbar-nav .nav-item > .nav-link:hover {
+    color: #fab700;
+}
+.parallax-banner {
+    background-image: url('../images/home-banner.jpg');
+    height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-yellow {
+    background: #fab700;
+    border-radius: 4px;
+    line-height: 60px;
+    color: #222222;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 5px;
+    padding-top: 2px;
+    display: inline-block;
+}
+.banner-content h3 {
+    font-size: 60px;
+    font-family: "Oswald", sans-serif;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.banner-content a {
+    text-decoration: none;
+    background-color: #222;
+    color: #fab700;
+    padding: 15px 50px;
+    border-radius: 7px;
+    transition: .3s ease-in-out;
+}
+.banner-content a:hover {
+    background: #fab700;
+    color: #222222;
+}
+.color-white {
+    color: #fff ;
+}
+.main-title {
+    font-size: 36px;
+    font-family: "Oswald", sans-serif;
+    color: #222222;
+    margin-bottom: 50px;
+}
+.about .about-inner > .left > .ab-btn {
+    background: #222222;
+    display: inline-block;
+    color: #fff;
+    line-height: 40px;
+    padding: 0px 28px;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-bottom: 20px;
+    transition: .3s;
+}
+.about .about-inner > .left > .ab-btn:hover {
+    background: #fab700;
+    color: #222222;
+}
+.services .card > .card-img-top {
+    height: 60px;
+    width: 60px;
+    margin-top: 50px;
+}
+.services .card {
+    border: none;
+    transition: .3s;
+    z-index: 0;
+}
+.services .card:hover {
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+    z-index: 10;
+}
+.row-flex, .row-flex > div[class*='col-'] {  
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex:1 1 auto; 
+}
+.row-flex-wrap {    
+    -webkit-flex-flow: row wrap;
+    align-content: flex-start;
+    flex:0; 
+}
+.row-flex > div[class*='col-'] {  
+    margin:-.2px; 
+}
+.team .card {
+    border: none;
+}
+.team .card .card-title {
+    margin-top: 30px;
+    color: #222222;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+.team .card .card-subtitle {
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    color: #777777;
+    margin-bottom: 0px;
+}
+.counter {
+    background-color: #fab700;
+    padding-bottom: 120px;
+    margin-top: 120px;
+}
+.counter h4 {
+    font-size: 48px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    color: #222222;
+}
+.counter p {
+    color: #222222;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+@media (max-width: 991px) {
+    .navbar-light .navbar-nav .nav-item > .nav-link {
+        line-height: 40px;
+        margin-right: 0px;
+        display: block;
+        border-bottom: 1px solid #ededed33;
+        border-radius: 0px;
+    }
+
+    .parallax-banner {
+        height: 400px;
+    }
+    .parallax-banner .banner-content h3 span {
+        font-size: 24px;
+    }
+}
